@@ -3,4 +3,4 @@ Name: themefontpickerconfig
 ---
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - SilverStripe\Fontpicker\Extensions\FontpickerSiteConfigExtension
+    - SilverStripe\ThemeFontpicker\Extensions\FontpickerSiteConfigExtension

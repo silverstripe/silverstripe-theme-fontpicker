@@ -1,6 +1,6 @@
 <?php
 
-namespace SilverStripe\Fontpicker\Extensions;
+namespace SilverStripe\ThemeFontpicker\Extensions;
 
 use SilverStripe\Fontpicker\Forms\FontPickerField;
 use SilverStripe\Forms\FieldList;

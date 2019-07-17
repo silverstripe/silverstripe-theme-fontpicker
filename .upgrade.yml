@@ -1,2 +1,2 @@
 mappings:
-  FontpickerSiteConfigExtension: SilverStripe\Fontpicker\Extensions\FontpickerSiteConfigExtension
+  FontpickerSiteConfigExtension: SilverStripe\ThemeFontpicker\Extensions\FontpickerSiteConfigExtension
