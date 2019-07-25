@@ -2,6 +2,7 @@
 
 namespace SilverStripe\ThemeFontpicker\Extensions;
 
+use SilverStripe\Core\Config\Config;
 use SilverStripe\Fontpicker\Forms\FontPickerField;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\ORM\DataExtension;
@@ -67,7 +68,7 @@ class FontpickerSiteConfigExtension extends DataExtension
     {
         if (!$this->owner->MainFontFamily) {
             $this->owner->update([
-                'MainFontFamily' => FontPickerField::getDefaultFont(),
+                'MainFontFamily' => Config::inst()->get(FontPickerField::class, 'default_font'),
             ]);
         }
     }
